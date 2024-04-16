@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="w-50 m-auto my-5 p-5 text-center">
+<h1>Smart Login System</h1>
+
+<input class="form-control bg-transparent mb-3 text-white" id="name" name="Name" placeholder="Enter your name"   type="text">
+<input class="form-control bg-transparent mb-3 text-white" id="email" name="Email" placeholder="Enter your email"   type="email">
+<input class="form-control bg-transparent mb-3 text-white" id="password" name="Password" placeholder="Enter password"   type="password">
+
+<div id="alert"></div>
+
+<button onclick="isExist()" class="w-100 bg-transparent"> Sign Up</button>
+
+<p>You have an account? <a href="../Login/index.html"  >Signin</a></p>
+</div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
